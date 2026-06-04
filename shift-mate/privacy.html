@@ -1,0 +1,142 @@
+<!doctype html><meta charset=utf-8><title>shift-mate privacy</title><div style="font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem"><pre style="white-space:pre-wrap"># Privacy Policy — Rotamatic
+
+**Effective date: 29 May 2026**
+
+Last updated: 29 May 2026
+
+---
+
+## At a glance
+
+Rotamatic is a private app. Your shift data, pay calculations, and photos never leave your phone. We don&#x27;t have servers, we don&#x27;t have accounts, and we can&#x27;t see your data even if we wanted to. The only thing that touches the internet is the App Store purchase system (handled by Apple and RevenueCat).
+
+---
+
+## What we collect
+
+| Data | Purpose | Where it goes |
+|---|---|---|
+| **Purchase history &amp; subscription status** | Manage your Pro subscription | RevenueCat (anonymous user ID, no name or email) |
+| **Device push notification token** | Send you shift reminders and pattern alerts | Apple Push Notification service (encrypted in transit) |
+| **Camera access** | Scan your paper rota | Photo stays on-device, processed locally by on-device AI |
+| **Microphone access** | Voice input for adding shifts | Audio processed on-device, never recorded or uploaded |
+| **Calendar access** | Export shifts to your iOS Calendar | Stays in your local Calendar app |
+
+All other data — your shifts, pay rates, patterns, themes, achievements, and settings — is stored locally on your device using fast, encrypted local storage (MMKV). It never leaves your phone.
+
+---
+
+## What we DON&#x27;T collect
+
+We want to be explicit about this:
+
+- **No personal information** — no name, email, phone number, or date of birth
+- **No account or sign-up** — Rotamatic has no user accounts
+- **No analytics or tracking** — no Firebase, Google Analytics, Amplitude, or any tracking SDK
+- **No crash reporting** — no Sentry or similar services
+- **No location data** — we don&#x27;t know where you work or live
+- **No health or financial data to servers** — your pay calculations and shift history stay on your device
+- **No ads** — no ad networks, no ad tracking identifiers
+
+---
+
+## AI features
+
+Rotamatic uses on-device AI to:
+
+- Read and parse your paper rota from a photo
+- Detect weekly/biweekly shift patterns
+- Generate monthly recap cards
+
+All AI processing happens entirely on your device. No images, no text, and no shift data is ever sent to a server or cloud API for AI processing.
+
+---
+
+## Third-party services
+
+| Service | What they see | Their privacy policy |
+|---|---|---|
+| **Apple / App Store** | Your Apple ID, purchase receipts | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
+| **RevenueCat** | Anonymous device ID, subscription status, purchase history | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| **Apple Push Notification service** | Device push token, notification content | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
+
+These services operate under their own privacy policies. We encourage you to review them.
+
+---
+
+## Your rights
+
+Depending on where you live, you may have the following rights:
+
+- **Access**: Request a copy of any data we hold about you (which, in practice, is limited to what RevenueCat stores — an anonymous purchase record)
+- **Deletion**: Request deletion of your data
+- **Portability**: Export your shift data from within the app at any time (Settings → Export)
+- **Correction**: Edit or correct any data directly in the app
+
+Since Rotamatic stores almost everything locally on your device, you have full control. Deleting the app deletes all local data. To request deletion of any RevenueCat records, contact us at the email below.
+
+---
+
+## Children&#x27;s privacy
+
+Rotamatic is not intended for children under 13. We do not knowingly collect personal information from anyone under 13. If you believe a child under 13 has inadvertently provided personal information, contact us and we will take steps to delete it.
+
+---
+
+## Data retention
+
+- **Local data**: Remains on your device until you delete the app or clear app data
+- **RevenueCat records**: Retained while your subscription is active and for a reasonable period after, in accordance with RevenueCat&#x27;s data retention policy
+- **Push notification tokens**: Removed when you disable notifications or uninstall the app
+
+---
+
+## Changes to this policy
+
+If we change how Rotamatic handles data, we will update this page with a new &quot;Effective date&quot; and, for significant changes, show an in-app notification before the changes take effect.
+
+---
+
+## Contact
+
+Questions about this policy or your data?
+
+Email: **mocmilkfc@gmail.com**
+
+I&#x27;m a solo developer based in Sydney, Australia. You&#x27;ll get a reply from a real person, usually within 48 hours.
+
+---
+
+## Apple Privacy Nutrition Label
+
+Fill these into App Store Connect → App Privacy → Data Types:
+
+### Data Used to Track You
+
+**None.** Rotamatic does not track you across apps or websites.
+
+### Data Linked to You
+
+| Data type | Purpose | Collected? |
+|---|---|---|
+| Purchases | Subscription management | Yes (via RevenueCat) |
+
+### Data Not Linked to You
+
+| Data type | Purpose | Collected? |
+|---|---|---|
+| Crash data | | No |
+| Diagnostics | | No |
+| Usage data | Analytics | No |
+| Identifiers | Device ID for purchases | Yes (anonymous, via RevenueCat) |
+
+### Data you enter (stays on-device only)
+
+| Data type | Purpose | Leaves device? |
+|---|---|---|
+| Shifts &amp; work schedules | Core app functionality | No |
+| Pay rates &amp; calculations | Wage tracking | No |
+| Photos (rota scans) | AI processing | No (on-device only) |
+| Audio (voice input) | Voice-to-shift entry | No (on-device only) |
+| Calendar events | Shift export | No (local Calendar only) |
+</pre></div>

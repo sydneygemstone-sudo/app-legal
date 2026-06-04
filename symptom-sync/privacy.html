@@ -1,0 +1,146 @@
+<!doctype html><meta charset=utf-8><title>symptom-sync privacy</title><div style="font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem"><pre style="white-space:pre-wrap"># Privacy Policy — SymptomSync
+
+**Effective date: 29 May 2026**
+
+Last updated: 29 May 2026
+
+---
+
+## At a glance
+
+SymptomSync is designed to be the most private health tracker you can use. Your symptoms, mood, energy, and triggers never leave your phone. There is no cloud, no account, no server. We literally cannot see your data. The only thing that touches the internet is the App Store purchase system (handled by Apple and RevenueCat).
+
+---
+
+## What we collect
+
+| Data | Purpose | Where it goes |
+|---|---|---|
+| **Purchase history &amp; subscription status** | Manage your Pro subscription | RevenueCat (anonymous user ID, no name or email) |
+| **Device push notification token** | Send you daily logging reminders | Apple Push Notification service (encrypted in transit) |
+
+That&#x27;s it. Everything else — your symptoms, mood scores, energy levels, triggers, templates, trends, and exports — is stored locally on your device using encrypted local storage (MMKV). It never leaves your phone.
+
+---
+
+## What we DON&#x27;T collect
+
+- **No health data on servers** — your symptoms, triggers, and patterns never leave your device
+- **No personal information** — no name, email, phone number, or date of birth
+- **No account or sign-up** — SymptomSync has no user accounts
+- **No analytics or tracking** — no Firebase, Google Analytics, Amplitude, or any tracking SDK
+- **No crash reporting** — no Sentry or similar services
+- **No location data**
+- **No camera or microphone access** — SymptomSync doesn&#x27;t use either
+- **No ads** — no ad networks, no ad tracking identifiers
+
+---
+
+## Health data specifics
+
+SymptomSync stores the following data **entirely on your device**:
+
+- Symptom entries (type, severity, duration, notes)
+- Mood and energy scores
+- Trigger associations
+- Trend analysis results
+- Condition templates and customisations
+- Exported reports
+
+This data is stored in MMKV (fast, encrypted local storage). It is never synced, backed up to any cloud, or accessible to anyone but you. If you delete the app, all health data is permanently deleted.
+
+**Important**: If you use iCloud or other device backup services, your app data may be included in those backups. This is controlled by your device settings, not by SymptomSync.
+
+---
+
+## Third-party services
+
+| Service | What they see | Their privacy policy |
+|---|---|---|
+| **Apple / App Store** | Your Apple ID, purchase receipts | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
+| **RevenueCat** | Anonymous device ID, subscription status, purchase history | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| **Apple Push Notification service** | Device push token | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
+
+---
+
+## Your rights
+
+- **Access**: Request a copy of any data held about you (limited to RevenueCat&#x27;s anonymous purchase record)
+- **Deletion**: Request deletion of your data. Local data is deleted when you uninstall the app. Contact us to delete RevenueCat records.
+- **Portability**: Export your symptom data as CSV from within the app at any time (Settings → Export Data)
+- **Correction**: Edit any symptom entry directly in the app
+
+Since SymptomSync stores everything locally, you have complete control. No one — including me — can access your health data.
+
+---
+
+## Children&#x27;s privacy
+
+SymptomSync is not intended for children under 13. We do not knowingly collect personal information from anyone under 13.
+
+---
+
+## Data retention
+
+- **Local health data**: Remains on your device until you delete the app or clear app data
+- **RevenueCat records**: Retained while your subscription is active, then deleted per RevenueCat&#x27;s retention policy
+- **Push notification tokens**: Removed when you disable notifications or uninstall the app
+
+---
+
+## Not medical advice disclaimer
+
+SymptomSync is a tracking and pattern-discovery tool. It does not provide medical advice, diagnosis, or treatment recommendations. The insights it shows are statistical correlations, not clinical conclusions. Always consult your healthcare provider for medical decisions.
+
+---
+
+## Changes to this policy
+
+If we change how SymptomSync handles data, we will update this page with a new &quot;Effective date.&quot; For significant changes, we&#x27;ll show an in-app notification before they take effect.
+
+---
+
+## Contact
+
+Questions about this policy or your data?
+
+Email: **mocmilkfc@gmail.com**
+
+I&#x27;m a solo developer based in Sydney, Australia. You&#x27;ll get a reply from a real person, usually within 48 hours.
+
+---
+
+## Apple Privacy Nutrition Label
+
+Fill these into App Store Connect → App Privacy → Data Types:
+
+### Data Used to Track You
+
+**None.** SymptomSync does not track you across apps or websites.
+
+### Data Linked to You
+
+| Data type | Purpose | Collected? |
+|---|---|---|
+| Purchases | Subscription management | Yes (via RevenueCat) |
+
+### Data Not Linked to You
+
+| Data type | Purpose | Collected? |
+|---|---|---|
+| Crash data | | No |
+| Diagnostics | | No |
+| Usage data | Analytics | No |
+| Identifiers | Device ID for purchases | Yes (anonymous, via RevenueCat) |
+
+### Sensitive data (stays on-device only)
+
+| Data type | Purpose | Leaves device? |
+|---|---|---|
+| Health &amp; symptom data | Core app functionality | No |
+| Mood &amp; energy scores | Tracking | No |
+| Trigger associations | Pattern analysis | No |
+| Trend analysis results | Insights | No |
+
+**Note for App Store Connect**: SymptomSync does NOT collect health data on servers. All health data is processed and stored entirely on-device. Select &quot;No&quot; for any health data collection questions.
+</pre></div>
